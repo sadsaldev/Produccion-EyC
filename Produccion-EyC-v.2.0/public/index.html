@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producción E&C | Inicio</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./assets/css/fonts.css"> 
+    <link id="current-stylesheet" rel="stylesheet" href = "./assets/css/style-dark.css?v=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="custom-background">
+    <div class="container-all">
+        <header>
+            <nav class="navbar">
+                <div class = "logo">
+                    <img src="./assets/img/logo.png" alt ="logo E&C" title="E&C Ingeniería">
+                    <p class="page-title-navbar"> | &nbsp; Análisis de Producción</p>
+                </div>
+                <div class="flex-end-navbar-items">
+                    <div class="flex-navbar-menu">
+                        <ul class="menu-flex" id="navbar-menu-flex">
+                            <li><a href="#" class="navelement" id="index-link">Inicio</a></li>
+                            <li><a href="#" class="navelement" id="queries-link">Consultas</a></li>
+                            <li><a href="#" class="navelement" id="biboard-link">Tablero BI</a></li>
+                            <li id="login-navelement"><a href="#" class="navelement" id ="login-link">Log In</a></li>
+                            <li id="signup-navelement"><a href="#" class="navelement" id ="signup-link">Sign Up</a></li>
+                            <li id="profile-navelement" style="display:none;"><a href="#" class="navelement" id="profile-link">Perfil</a></li>
+                        </ul>
+                    </div>
+                    <button class="switch-theme"><img class="switch-theme-img" src="./assets/img/dark-mode-blue.svg" alt="change page theme" title="Cambiar a Modo Claro"></button>
+                    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+                </div>
+            </nav>
+            <div id="blur-background-2" style="display: none;">
+                <div class="aside-menu-container">
+                    <div class="aside-menu">
+                        <div class="aside-menu-deco">
+                        </div>
+                        <div class="navbar-menu">
+                            <ul class="menu" id="navbar-menu">
+                                <li><a href="#" class="navelement" id="index-link">Inicio</a></li>
+                                <li><a href="#" class="navelement" id="queries-link">Consultas</a></li>
+                                <li><a href="#" class="navelement" id="biboard-link">Tablero BI</a></li>
+                                <li id="login-navelement"><a href="#" class="navelement" id ="login-link">Log In</a></li>
+                                <li id="signup-navelement"><a href="#" class="navelement" id ="signup-link">Sign Up</a></li>
+                                <li id="profile-navelement" style="display:none;"><a href="#" class="navelement" id="profile-link">Perfil</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            <div id="profile-content" style="display:none;"></div>
+        </header>
+        <main class="container mt-0 mb-0">
+            <div id="index-content">
+                <div class="left-page-info">
+                    <div class="reload-page-img" id="pop-ups-index"><img src="./assets/img/close.svg" alt ="close"></div>
+                    <div class="reload-page-info">
+                        <p>Por favor presiona CTRL + F5 para visualizar correctamente la página.</p>
+                    </div>
+                </div>
+                <section class="row align-items-center">
+                    <div class="col-md-6" id="left-container">
+                        <div id="main-deco-container"><img class="main-deco" src="./assets/img/main-deco.svg" alt ="main-deco" class="img-fluid"></div> 
+                    </div>
+                    <div class="col-md-6" id="right-container">
+                        <div id="title-container">
+                            <div class="main-title-container"><h1 class = "title-right">Análisis de Producción</h1></div>
+                            <div class ="sub-cont">
+                                <div class="subtitle-container">
+                                    <h2><b>E&C INGENIERÍA S.A.S</b></h2>
+                                </div>
+                            </div> 
+                        </div>    
+                        <div id="login-content"></div>
+                    </div>
+                    <div id="bi-index"></div> 
+                    <div id="sections-content"></div>
+                </section>
+            </div>
+        </main>
+        <div id="blur-background" style="display:none;"></div>
+        <footer>
+        </footer> 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
